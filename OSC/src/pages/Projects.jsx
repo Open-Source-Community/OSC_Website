@@ -20,7 +20,7 @@ const Projects = () => {
   ];
 
   return (
-<div className="min-h-screen  bg-[#181818] text-white flex flex-col p-6 md:p-12">
+<div className="min-h-screen  bg-[#181818] text-white my-10 flex flex-col p-6 md:p-12">
       <Navbar />
       <div className=" pt-20 flex-grow max-w-7xl mx-auto w-full mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
