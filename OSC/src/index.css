@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+@theme {
+  --color-light-bg: #ffffff;
+  --color-dark-bg: #181818;
+  --color-mid-bg: #232323;
+  --color-osc-orange: #fa9b46;
+  --font-serif: "Source Serif 4", serif;
+
+  /* Custom Linear Gradient */
+  --image-playlist-gradient: linear-gradient(
+    to bottom,
+    var(--color-dark-bg) 0%,
+    var(--color-mid-bg) 52%,
+    var(--color-dark-bg) 100%
+  );
+}
+body {
+  background-color: var(--color-dark-bg);
+  color: white;
+}
+.light body {
+  background-color: white !important;
+}
+
+
+.light {
+  background-color: var(--color-light-bg);
+  color: #111;
+}
+
+
+.light nav {
+  background-color: white !important;
+}
+
